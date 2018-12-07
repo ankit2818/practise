@@ -51,7 +51,8 @@ def solveSudoku(arr):
 	return False
 
 if __name__=="__main__": 
-	grid=[] 
+	grid=[]
+	print("Enter values row-wise without any space and replace blank space with 0(int)")
 
 	for i in range(1, 10):
 		a = []
